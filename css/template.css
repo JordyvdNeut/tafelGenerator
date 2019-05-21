@@ -1,0 +1,27 @@
+/*
+  Class:    4A7B
+  Name:     J. van der Neut
+  Purpose:  Template layout webpagina
+  
+  mm-dd-yyyy  Description
+  ----------  ----------------------------------
+  23-10-2017  Initial
+*/
+/***************************************************
+  *  Include the padding and border to all elements*
+****************************************************/
+*  {
+  box-sizing: border-box;
+}
+/*************************
+  *  Default setting     *
+  ************************/
+body  {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 100%;
+  font-family: 'Calibri','Arial','Helvetica';
+  color: black;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!--
+  Class:
+  Name:
+  Purpose: Template layout webpagina
+  
+  mm-dd-yyyy  Description
+  ----------  -----------------------------------------------------
+  24-10-2017  Initial
+-->
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=divice-width, intial-scale=1.0">
+	
+	<link rel="stylesheet" href="css/template.css">
+	<title></title>
+  </head>
+  <Script>
+    var getal = parseInt(prompt("Geef een tafel"));
+    var tafel = 0;
+	
+	for (tafel = 1; tafel <= 15; tafel++) {
+	
+	  if (tafel >5 && tafel <10) continue;
+	  document.write (' <br> ' + tafel + ' x ' + getal + ' = ' + (tafel*getal));
+	}
+	
+  </Script>
+  <body>
+	<p></p>
+  </body>
+</html>
